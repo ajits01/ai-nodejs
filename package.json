@@ -1,0 +1,25 @@
+{
+  "name": "ai-nodejs",
+  "version": "1.0.0",
+  "description": "AI with Node.js — Chat, Similarity Search, Document QA and Function Calling using OpenAI API and LangChain",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "chat": "node ./chat.js"
+  },
+  "keywords": [
+    "Node.js",
+    "OpenAI",
+    "LangChain",
+    "Chat",
+    "Similarity Search",
+    "Document QA",
+    "Function Calling"
+  ],
+  "author": "ajits01",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.17.4"
+  }
+}
